@@ -100,5 +100,15 @@ namespace LinkedList
             RebildIndex();
         }
 
+        public int Count()
+        {
+            var current = HeadNode;
+            while (current.Next != null)
+            {
+                current = current.Next;
+            }
+            return current.Index + 1;
+        }
+
     }
 }

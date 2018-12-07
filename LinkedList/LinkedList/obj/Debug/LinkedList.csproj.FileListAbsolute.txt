@@ -5,3 +5,10 @@ D:\OneDrive\C#\Git\LinkedList\LinkedList\obj\Debug\LinkedList.csprojAssemblyRefe
 D:\OneDrive\C#\Git\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
 D:\OneDrive\C#\Git\LinkedList\LinkedList\obj\Debug\LinkedList.exe
 D:\OneDrive\C#\Git\LinkedList\LinkedList\obj\Debug\LinkedList.pdb
+D:\OneDrive\C#\Git\LinkedList\LinkedList\LinkedList\bin\Debug\LinkedList.exe.config
+D:\OneDrive\C#\Git\LinkedList\LinkedList\LinkedList\bin\Debug\LinkedList.exe
+D:\OneDrive\C#\Git\LinkedList\LinkedList\LinkedList\bin\Debug\LinkedList.pdb
+D:\OneDrive\C#\Git\LinkedList\LinkedList\LinkedList\obj\Debug\LinkedList.csprojAssemblyReference.cache
+D:\OneDrive\C#\Git\LinkedList\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\Git\LinkedList\LinkedList\LinkedList\obj\Debug\LinkedList.exe
+D:\OneDrive\C#\Git\LinkedList\LinkedList\LinkedList\obj\Debug\LinkedList.pdb

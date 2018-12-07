@@ -16,9 +16,9 @@ namespace LinkedList
             n.Add("3");
             n.Add("4");
             n.Add("5");
-
+            Console.WriteLine(n.Count());
             n.RemoveAt(3);
-
+            Console.WriteLine(n.Count());
             foreach (var item in n)
             {
                 Console.WriteLine(item);
