@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    class LList<T>:IEnumerable<T>
+    class LList<T>:IEnumerable
     {
         Node<T> HeadNode;
 
@@ -24,11 +24,27 @@ namespace LinkedList
             }
             else
             {
-                HeadNode.Add(data, HeadNode);
+                Add(data, HeadNode);
             }
         }
 
-     
+        public void Add(T data, Node<T> headNode)
+        {
+            if (headNode.Next == null)
+            {
+                headNode.Next = new Node<T>(data)
+                {
+                    Prev = headNode
+                };
+                headNode.Next.Index = headNode.Index + 1;
+            }
+            else
+            {
+                Add(data, headNode.Next);
+                headNode.Next.Index = headNode.Index + 1;
+            }
+        }
+
         public void RemoveFirst()
         {
             HeadNode = HeadNode.Next;
@@ -56,7 +72,7 @@ namespace LinkedList
             }
         }
 
-        public IEnumerator<T> Enumerator()
+        public IEnumerator Enumerator()
         {
             var current = HeadNode;
             while (current != null)
@@ -66,7 +82,7 @@ namespace LinkedList
             }
         }
 
-        public IEnumerator<T> GetEnumerator()
+        public IEnumerator GetEnumerator()
         {
             return Enumerator();
         }
